@@ -1,0 +1,10 @@
+.book__img {
+    width: 300px;
+}
+.book__autor {
+    font-size: 1.5rem;
+}
+.book__price {
+    color: #51c5c9;
+    font-size: 1.5rem;
+}

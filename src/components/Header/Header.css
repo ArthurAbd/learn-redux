@@ -1,0 +1,14 @@
+.header__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+a:hover {
+    text-decoration: none
+}
+.header__basket {
+    background-color: #EBEBEB;
+    padding: 12px;
+    border: #ccc solid 1px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}

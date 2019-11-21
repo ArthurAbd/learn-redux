@@ -1,7 +1,10 @@
 import React from 'react'
+import Basket from '../Basket/Basket'
 
 const CardPage = () => {
-    return <div>Card</div>
+    return (
+        <Basket />
+    )
 }
 
 export default CardPage
