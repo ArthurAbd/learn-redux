@@ -20,7 +20,7 @@ const booksError = (error) => {
 
 const bookAdded = (bookId) => {
     return {
-        type: 'BOOK_ADDED_TO_CART',
+        type: 'BOOK_ADDED',
         payload: bookId
     }
 }

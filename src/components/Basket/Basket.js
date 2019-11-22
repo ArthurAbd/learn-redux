@@ -56,10 +56,10 @@ const Basket = ({items, total, onInc, onDec, onDel}) => {
     )
 }
 
-const mapStateToProps = ({basketItems, orderTotal}) => {
+const mapStateToProps = ({basket : {basketItems, orderTotal}}) => {
     return {
         items: basketItems,
-        total: orderTotal
+        total: orderTotal,
     }
 }
 
